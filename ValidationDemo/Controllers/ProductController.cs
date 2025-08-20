@@ -19,12 +19,11 @@ namespace ValidationDemo.Controllers
         [HttpPost]
         public IActionResult NewProduct(ProductsModel product)
         {
-            //if (ModelState.IsValid) 
-            //{
+           
                 return Ok();
             
             
-            //}
+           
            
 
         }
